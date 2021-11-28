@@ -31,6 +31,13 @@ body {
     .tabBlock {
         justify-content: center;
     }
+    .socMedia {
+        max-width: 750;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 767px) {
@@ -56,7 +63,7 @@ body {
         justify-content: center;
         text-align: center;
     }
-    .line2Img {
+    .line2Img img {
         width: 100%;
     }
     .Line2text {
@@ -69,6 +76,44 @@ body {
         text-align: center;
     }
     .reviews {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .socMedia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .img_socMedia,
+    .img_socMedia9 {
+        width: 100% !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-around !important;
+    }
+    .imagge img {
+        width: 100% !important;
+        height: auto !important;
+        object-fit: cover !important;
+    }
+    .conteinerLine5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .line7 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .line8,
+    .line8-container,
+    .orange_button8,
+    .fut {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -476,11 +521,13 @@ input[type="text"]::-webkit-input-placeholder {
     text-align: left;
 }
 .customer {
+    margin: 0 10px;
     display: flex;
     justify-content: center;
 }
 
 .img-avatar img {
+    margin: 0 10px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
